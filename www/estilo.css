@@ -1,0 +1,73 @@
+input[type='text']{
+	border: 0;
+	width: 30px;
+	text-align: center;
+	padding: 0;
+}
+
+input[type='text']:before{
+	content:":";
+}
+
+#painel{
+	overflow: hidden;
+}
+
+#painel div{
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+
+#painel > div{
+	float: left;
+	margin: 0 10px 10px 0;
+	background: #000;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#painel div.on > div, #painel div.atv > div{
+	cursor: default;
+}
+
+#painel div.red.on > div, #painel div.red.atv > div{
+	background: red;
+}
+
+#painel div.green.on > div, #painel div.green.atv > div{
+	background: green;
+}
+
+#painel div.yellow.on > div, #painel div.yellow.atv > div{
+	background: yellow;
+}
+
+#painel div.blue.on > div, #painel div.blue.atv > div{
+	background: blue;
+}
+
+#painel div.gray.on > div, #painel div.gray.atv > div{
+	background: gray;
+}
+
+#painel div.maroon.on > div, #painel div.maroon.atv > div{
+	background: maroon;
+}
+
+#painel div.pink.on > div, #painel div.pink.atv > div{
+	background: pink;
+}
+
+#painel div.salmon.on > div, #painel div.salmon.atv > div{
+	background: salmon;
+}
+
+#painel div.indigo.on > div, #painel div.indigo.atv > div{
+	background: indigo;
+}
+
+#painel div.orange.on > div, #painel div.orange.atv > div{
+	background: orange;
+}
+
